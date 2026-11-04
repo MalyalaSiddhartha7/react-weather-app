@@ -1,0 +1,28 @@
+/* Fix search field text visibility */
+
+.MuiTextField-root .MuiInputLabel-root {
+  color: #cbd5e1 !important;
+}
+
+.MuiTextField-root .MuiOutlinedInput-root {
+  background: rgba(255, 255, 255, 0.10) !important;
+  border-radius: 12px;
+}
+
+.MuiTextField-root .MuiOutlinedInput-input {
+  color: #ffffff !important;
+}
+
+.MuiTextField-root .MuiOutlinedInput-notchedOutline {
+  border-color: #64748b !important;
+}
+
+.MuiTextField-root .MuiOutlinedInput-root:hover
+.MuiOutlinedInput-notchedOutline {
+  border-color: #38bdf8 !important;
+}
+
+.MuiTextField-root .MuiOutlinedInput-root.Mui-focused
+.MuiOutlinedInput-notchedOutline {
+  border-color: #38bdf8 !important;
+}
